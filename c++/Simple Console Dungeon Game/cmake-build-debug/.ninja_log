@@ -1,0 +1,7 @@
+# ninja log v5
+24	5091	1683149948765156754	CMakeFiles/ConsoleGame.dir/main.cpp.o	17f03b6698a0da59
+31	4661	1683149948338842968	CMakeFiles/ConsoleGame.dir/include/Player/Player.cpp.o	120de15ecdb2fcf0
+30	5118	1683149948801308189	CMakeFiles/ConsoleGame.dir/include/Menu/Menu.cpp.o	444194cf1a7f87c4
+27	5078	1683149948754322164	CMakeFiles/ConsoleGame.dir/include/Game/Game.cpp.o	a403d2aa509b50c2
+28	5139	1683149948821336662	CMakeFiles/ConsoleGame.dir/include/Login/Login.cpp.o	98cc7efc3512387c
+1929	2104	1683144486513921822	Simple_Console_Dungeon_Game	12dba14f4c1a32ed

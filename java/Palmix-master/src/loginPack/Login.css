@@ -1,0 +1,46 @@
+/*
+
+bggrad: from #040404 to #40403f
+
+*/
+
+
+
+root {
+	display: block;
+}
+
+.root {
+	
+    -fx-background-color: linear-gradient(to top, #040404, #40403f);
+    
+}
+
+.label {
+   -fx-font-size: 32pt;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: #fada23;
+}
+
+.button {
+	-fx-background-color: #fada23;	
+	-fx-font-size: 16pt;
+	-fx-pref-width: 200px;
+	
+}
+
+
+.button:hover {
+	
+}
+
+.text-field {
+	-fx-text-fill: #a48c00;
+	-fx-font-size: 12pt;
+}
+
+.check-box {
+	-fx-text-fill: #fada23;
+	-fx-font-size: 10pt;
+	-fx-font-family: "Arial Narrow";
+}

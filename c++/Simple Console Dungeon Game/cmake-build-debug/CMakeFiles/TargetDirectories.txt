@@ -1,0 +1,3 @@
+/Users/emin/Documents/projects/cpp/Simple Console Dungeon Game/cmake-build-debug/CMakeFiles/ConsoleGame.dir
+/Users/emin/Documents/projects/cpp/Simple Console Dungeon Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/emin/Documents/projects/cpp/Simple Console Dungeon Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

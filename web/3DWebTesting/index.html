@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Testing</title>
+        <link rel = "icon" href = "src/ecartermainlogo/ecarter_games_black.png">
+        <!-- For apple devices -->
+        <link rel = "apple-touch-icon" href = "src/ecartermainlogo/ecarter_games_black.png"/>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <!-- Main Container -->
+<div id="container">
+    <!-- Navbar container -->
+    <div id="navbar">
+        <div id="logo">
+            <img src="src/ecartermainlogo/ecarter_games_transperancy.gif" alt="logo">
+        </div>
+        <ul>
+            <li class="active">
+                <img class="iconSize" src="src/logo/home.gif" alt="">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <img class="iconSize" src="src/logo/about.gif" alt="">
+                <a href="#">About</a>
+            </li>
+            <li>
+                <img class="iconSize" src="src/logo/contact.gif" alt="">
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <img class="iconSize" src="src/logo/future.gif" alt="">
+                <a href="#">Future</a>
+            </li>
+        </ul>
+    </div>
+    <!-- An aside -->
+    <!-- This is for holding the 3D object -->
+    <div id="aSide">
+        <model-viewer src="src/3d/dragon.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="src/3d/dragon.gltf"></model-viewer>
+    </div>
+
+    <!-- Content container -->
+    <!-- This is for holding some brief description about the 3D object -->
+    <div id="content">
+        <h2>3D DESIGN LIVE</h2>
+        <p>We try something</p>
+        <p>3D designer: Umut Basak</p>
+        <button>Join Us</button>
+    </div>
+    <!-- Social media icons -->
+    <!-- This is for holding some company's social media icons and related links -->
+    <div id="icons">
+        <div id="iconsLogo">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

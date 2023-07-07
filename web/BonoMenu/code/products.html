@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BONO</title>
+</head>
+
+<body>
+    <!-- Header section start -->
+    <header class="header">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <!--
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Products</a>
+          <a href="#">Review</a>
+          <a href="#">Blogs</a>
+        </nav>
+        
+        <div class="buttons">
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+          <button>
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        
+        <div class="search-form">
+          <input type="text" class="search-input" id="search-box" placeholder="Ara">
+          <i class="fas fa-search"></i>
+        </div>
+  
+        <div class="cart-items-container">
+          <div class="cart-items">
+            <i class="fas fa-times"></i>
+            <img src="images/bonoBelcika.png" alt="menu">
+            <div class="content">
+              <h3>Belçika Çikolatalı Berliner</h3>
+              <div class="price">₺34</div>
+            </div>
+          </div>
+            <div class="cart-items">
+              <i class="fas fa-times"></i>
+              <img src="images/bonoBrowni.png" alt="menu">
+              <div class="content">
+                <h3>Browni</h3>
+                <div class="price">₺36</div>
+              </div>
+            </div>
+              <div class="cart-items">
+                <i class="fas fa-times"></i>
+                <img src="images/bonoBademli.png" alt="menu">
+                <div class="content">
+                  <h3>File Bademli Berliner</h3>
+                  <div class="price">₺36</div>
+                </div>
+              </div>
+                <div class="cart-items">
+                  <i class="fas fa-times"></i>
+                  <img src="images/bonoVisne.png" alt="menu">
+                  <div class="content">
+                    <h3>Vişne Marmelatlı Berliner</h3>
+                    <div class="price">₺32</div>
+                  </div>
+                </div>
+                <div class="cart-items">
+                  <i class="fas fa-times"></i>
+                  <img src="images/bgicecekkirmizi.png" alt="menu">
+                  <div class="content">
+                    <h3>Çilekli Limonata</h3>
+                    <div class="price">₺35</div>
+                  </div>
+                </div>
+                <a href="#" class="btn">Ödemeye Geç</a>
+          </div>
+        </div>
+        -->
+      </header>
+    <!-- Header section end -->
+
+    <!-- Bakery section start -->
+    <section class="menu dropdown">
+        <h1 class="heading">"Bono"<span> tatlılarımız</span>
+            <div class="btn-menu-div">
+                <a class="btn-products-menu" id="dropDown1">Menüyü Aç</a>
+            </div>
+        </h1>
+        <div class="box-container dropdown-content" id="hide1">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bonoVisne.png" alt="visne" />
+                    <span class="menu-category">Berliner</span>
+                    <h3>Vişne Marmelatlı Berliner</h3>
+                    <div class="price">₺57</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bonoBelcika.png" alt="belcika" />
+                    <span class="menu-category">Berliner</span>
+                    <h3>Belçika Çikolatalı Berliner</h3>
+                    <div class="price">₺57</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                  <img src="images/bonoBavyera.png" alt="bavyera" />
+                  <span class="menu-category">Berliner</span>
+                  <h3>Bavyera Kremalı Berliner</h3>
+                  <div class="price">₺57</div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-head">
+                  <img src="images/empty.png" alt="lotus" />
+                  <span class="menu-category">Berliner</span>
+                  <h3>Lotuslu Berliner</h3>
+                  <div class="price">₺59</div>
+                </div>
+              </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bonoBademli.png" alt="badem" />
+                    <span class="menu-category">Berliner</span>
+                    <h3>File Bademli Berliner</h3>
+                    <div class="price">₺59</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bonoBrowni.png" alt="browni" />
+                    <span class="menu-category">Berliner</span>
+                    <h3>Beyaz Çikolatalı Browni</h3>
+                    <div class="price">₺66</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bonoLotuslu.png" alt="lotus" />
+                    <span class="menu-category">Cheesecake</span>
+                    <h3>Cheesecake</h3>
+                    <div class="price">₺68</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/sadeKruvasan.png" alt="Kruvasan" />
+                    <span class="menu-category">Kruvasan</span>
+                    <h3>Sade Kruvasan</h3>
+                    <div class="price">₺64</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/bademliKruvasan.png" alt="Kruvasan" />
+                    <span class="menu-category">Kruvasan</span>
+                    <h3>Çikolatalı Kruvasan</h3>
+                    <div class="price">₺66</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/empty.png" alt="Magnolia" />
+                    <span class="menu-category">Magnolia</span>
+                    <h3>Çilekli Magnolia</h3>
+                    <div class="price">₺68</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bakery section end -->
+    <!-- Products section start -->
+    <section class="products dropdown">
+        <h1 class="heading">"Bono"<span> Sıcak Kahveler</span>
+            <div class="btn-menu-div">
+                <a class="btn-products-menu" id="dropDown2">Menüyü Aç</a>
+            </div>
+        </h1>
+        <div class="box-container dropdown-content" id="hide2">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Espresso</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">Espresso / ₺24</b>
+                        <b class="price">Double Espresso / ₺29</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Espresso Macchiato</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺33</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Americano</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺41</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Filter Coffe</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺39</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Cortado</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺41</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Latte</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺44</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Bono Latte</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺47</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Cappuccino</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺44</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Flat White</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺46</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Mocha</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺49</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Caramel Macchiato</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺49</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">White Chocolate Mocha</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺49</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Türk Kahvesi</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">Single / ₺23</b>
+                        <b class="price">Double / ₺31</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">V60</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺51</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Chemex (2 cups)</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺82</b>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products dropdown">
+        <h1 class="heading">"Bono"<span> Sıcak İçecekler</span>
+            <div class="btn-menu-div">
+                <a class="btn-products-menu" id="dropDown3">Menüyü Aç</a>
+            </div>
+        </h1>
+        <div class="box-container dropdown-content" id="hide3">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek</span>
+                    <a href="#" class="name">Tea</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">Small / ₺17</b>
+                        <b class="price">Medium / ₺21</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek</span>
+                    <a href="#" class="name">Hot Chocolate</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺42</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek</span>
+                    <a href="#" class="name">Marsmellow Chocolate</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺47</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Sıcak İçecek</span>
+                    <a href="#" class="name">Sahlep</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺39</b>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products dropdown">
+        <h1 class="heading">"Bono"<span> Soğuk Kahveler</span>
+            <div class="btn-menu-div">
+                <a class="btn-products-menu" id="dropDown4">Menüyü Aç</a>
+            </div>
+        </h1>
+        <div class="box-container dropdown-content" id="hide4">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced Americano</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺44</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced Filter Coffe</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺42</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced Latte</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺47</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced Mocha</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺52</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced White Chocolate Mocha</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺52</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Iced Caramel Macchiato</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺52</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Cold Brew</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺53</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Coffee Affogato</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺53</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk İçecek / Espresso Bazlı</span>
+                    <a href="#" class="name">Coffe Tonic</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺53</b>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products dropdown">
+        <h1 class="heading">"Bono"<span> Soğuk Ferah İçecekler</span>
+            <div class="btn-menu-div">
+                <a class="btn-products-menu" id="dropDown5">Menüyü Aç</a>
+            </div>
+        </h1>
+        <div class="box-container dropdown-content" id="hide5">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Bono Fresh</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Bavyera Frappe</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Bumble Coffee</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Brownie Fresh</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Chai Tea Latte</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺52</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Cool Lime/Fresh Lime</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Green Apple Ice Tea</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Ice Hibiscus Tea</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Limonata</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺41</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Limonata Çilek</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺44</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Mojito</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Red Devil Coffee</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺54</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Water</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺7</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Mineral Water</a>
+                </div>
+                
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺24</b>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Soğuk Ferah İçecek</span>
+                    <a href="#" class="name">Soda Pop</a>
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺26</b>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products section end -->
+
+    <!-- Footer section start -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn">Search</button>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/bonobostanli/" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/bonobostanli/" class="fab fa-instagram"></a>
+            <a href="https://goo.gl/maps/2Po4WxX7BGCg9nqA7" class="fab fa-google"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Ürünlerimiz</a>
+        </div>
+        <div class="credit">
+            created by <span>Ahmet Emin</span> | all rights reserved
+            <p>Version: 0.3.2 - 4.07</p>
+        </div>
+    </section>
+    <!-- Footer section end -->
+
+    <!-- Script Start -->
+    <script src="scripts.js"></script>
+    <!-- Script Start -->
+</body>
+
+</html>
